@@ -1,0 +1,14 @@
+[package]
+name = "evernote2md"
+version = "0.1.0"
+authors = ["Chris Krycho <chris@chriskrycho.com>"]
+
+[dependencies]
+clap = "~2.31.2"
+pandoc = "0.6.2"
+rayon = "1.0.1"
+regex = "1.0.0"
+serde = "1.0.58"
+serde_derive = "1.0.58"
+serde-xml-rs = "0.2.1"
+serde_yaml = "0.7.4"
